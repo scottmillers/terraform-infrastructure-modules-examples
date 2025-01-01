@@ -1,11 +1,11 @@
-# My example Terraform modules
+# My Terraform modules examples
 
 This repo shows an example file/folder structure that along with the code in my terraform repo is an example of how I define my terragrunt project structure and keep my modules seperate.  
 
 This repo contains the following example modules:
 
-- vpc: A single VPC that accepts a cidr block
-- subnet: A single subnet that depends on the VPC and requires a CIDR block
+- vpc: A single VPC that accepts a CIDR block
+- subnet: A single subnet that depends that requires a vpc id and CIDR block
 
 ## How do you use these modules?
 
