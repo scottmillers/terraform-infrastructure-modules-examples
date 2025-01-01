@@ -1,4 +1,4 @@
-# My example terragrunt modules
+# My example Terraform modules
 
 This repo shows an example file/folder structure that along with the code in my terraform repo is an example of how I define my terragrunt project structure and keep my modules seperate.  
 
