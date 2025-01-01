@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------------------------------------------------------
 
 variable "name" {
-  description = "The name for the VPC. This name is also used to namespace all the other resources created by this module."
+  description = "The name for the VPC tag. This name is also used to namespace all the other resources created by this module."
   type        = string
 }
 
