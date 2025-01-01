@@ -5,7 +5,7 @@ This repo shows an example file/folder structure that along with the code in my 
 This repo contains the following example modules:
 
 - vpc: A single VPC that accepts a cidr block
-- subnet: A single subnet
+- subnet: A single subnet that depends on the VPC and requires a CIDR block
 
 ## How do you use these modules?
 
