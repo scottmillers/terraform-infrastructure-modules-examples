@@ -10,8 +10,10 @@ terraform {
 }
 
 resource "aws_vpc" "main" {
-    name = var.name
     cidr_block = var.cidr_block
     enable_dns_support = false
     enable_dns_hostnames = false 
+    tags = {
+      Name = "${var.name}"
+    }
 }
